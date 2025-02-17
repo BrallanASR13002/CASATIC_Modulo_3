@@ -10,6 +10,7 @@ class Car
     public int CarNumberDoors { get; set; }
     public int CarNumberTires { get; set; }
     public string CarOilType { get; set; }
+
 /// <summary>
 /// The function CarAccelerate checks if the car is on and prints a message accordingly.
 /// </summary>
@@ -19,7 +20,30 @@ class Car
         if (CarIsOn==False)
         {
             Console.WriteLine("El auto está encendido");
-        }
-Console.WriteLine("El auto está  apagado");
+        } else
+{
+    Console.WriteLine("El auto está  apagado");
+}
     }
+/// <summary>
+/// The function CarBreak prints a message indicating that the car has stopped.
+/// </summary>
+public void CarBreak()
+{
+    Console.WriteLine("El auto a frenado");
+}
+/// <summary>
+/// The function CarSpin prints a message indicating that the car has spun.
+/// </summary>
+public void CarSpin()
+{
+    Console.WriteLine("El auto ha girado");
+}
+/// <summary>
+/// The function CarBack in C# prints a message indicating that the car has reversed.
+/// </summary>
+public void CarBack()
+{
+    Console.WriteLine("El Auto ha retrocedido");
+}
 }
