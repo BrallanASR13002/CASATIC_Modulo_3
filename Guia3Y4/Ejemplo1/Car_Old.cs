@@ -1,7 +1,7 @@
 /* The code snippet is defining a class named `Car` in C#. This class does not have any properties or
 methods defined within it. It serves as a blueprint for creating objects of type `Car` with specific
 attributes and behaviors. */
-class Car
+class Car_Old
 {
     /* These lines of code are defining public fields within the `Car` class in C#. Each field represents a
     specific attribute of a car object that can be accessed and modified from outside the class. Here's
