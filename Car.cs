@@ -10,6 +10,9 @@ class Car
     public int CarNumberDoors { get; set; }
     public int CarNumberTires { get; set; }
     public string CarOilType { get; set; }
+/// <summary>
+/// The function CarAccelerate checks if the car is on and prints a message accordingly.
+/// </summary>
     public void CarAccelerate()
     {
         private bool CarIsOn { get; set; }
