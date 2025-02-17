@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UserWithOutSOLID")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+351ae1274a56d1b4f2e0c7e9d3e987327be17ee1")]
 [assembly: System.Reflection.AssemblyProductAttribute("UserWithOutSOLID")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UserWithOutSOLID")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
