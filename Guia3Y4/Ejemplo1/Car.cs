@@ -6,12 +6,12 @@ class Car
     different attributes of a car. Each property has a getter and setter method allowing access to and
     modification of the property values. Here's a breakdown of the properties: */
     public int CarId { get; set; }
-    public string CardBrand { get; set; }
-    public string CarModel { get; set; }
-    public string CarMotor { get; set; }
+    public string? CardBrand { get; set; }
+    public string? CarModel { get; set; }
+    public string? CarMotor { get; set; }
     public int CarNumberDoors { get; set; }
     public int CarNumberTires { get; set; }
-    public string CarOilType { get; set; }
+    public string? CarOilType { get; set; }
     public bool CarIsOn { get; set; }
 
 
