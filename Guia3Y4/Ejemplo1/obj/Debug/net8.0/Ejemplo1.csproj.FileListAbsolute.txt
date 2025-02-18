@@ -1,0 +1,15 @@
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfoInputs.cache
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.AssemblyInfo.cs
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.csproj.CoreCompileInputs.cache
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.sourcelink.json
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\bin\Debug\net8.0\Ejemplo1.exe
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\bin\Debug\net8.0\Ejemplo1.deps.json
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\bin\Debug\net8.0\Ejemplo1.runtimeconfig.json
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\bin\Debug\net8.0\Ejemplo1.dll
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\bin\Debug\net8.0\Ejemplo1.pdb
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.dll
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\refint\Ejemplo1.dll
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.pdb
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\Ejemplo1.genruntimeconfig.cache
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\Guia3Y4\Ejemplo1\obj\Debug\net8.0\ref\Ejemplo1.dll
