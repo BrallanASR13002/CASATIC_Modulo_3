@@ -36,6 +36,16 @@ internal class Program
         calculated area of a square to the console. However, there seems to be a syntax error in the way the
         string interpolation is being used. */
         Console.WriteLine($"El area de un cuadrado es: " +
-        "{areaSquare.ShapeArea2(areaSquare.Slide1, areaSquare.Slide2)}");
+        $"{areaSquare.ShapeArea2(areaSquare.Slide1, areaSquare.Slide2)}");
+        /* This portion of the C# program is responsible for calculating the area of a triangle based
+        on user input for the height and base of the triangle. Here's a breakdown of what each line
+        is doing: */
+        Console.WriteLine("Area de un triangulo");
+        Triangle areaTriangle = new Triangle();
+        Console.WriteLine("Ingrese el valor de la altura del triangulo: ");
+        areaTriangle.Heigth = Double.Parse(Console.ReadLine());
+        Console.WriteLine("Ingrese el valor de la base del triangulo: ");
+        areaTriangle.With = Double.Parse(Console.ReadLine());
+        Console.WriteLine($"El area de un triangulo es: {areaTriangle.Area()}");
     }
 }
