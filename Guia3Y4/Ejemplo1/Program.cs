@@ -18,7 +18,24 @@ internal class Program
         areaCircle.Radius = Double.Parse(Console.ReadLine());
         /* The line `Console.WriteLine(areaCircle.ShapeArea());` is calling the `ShapeArea()` method of the
         `areaCircle` object and then printing the result to the console. */
-        Console.WriteLine(areaCircle.ShapeArea());
-
+        Console.WriteLine($"El area del circulo es: {areaCircle.ShapeArea()}");
+        Console.WriteLine("Area de un cuadrado");
+        /* The line `Square areaSquare = new Square();` is creating a new instance of the `Square` class and
+        assigning it to the variable `areaSquare`. This allows you to work with the properties and methods
+        of the `Square` class using the `areaSquare` object. In this specific context, it is used to
+        calculate the area of a square based on user input for the lengths of its sides. */
+        Square areaSquare = new Square();
+        /* The code snippet you provided is responsible for taking user input for the lengths of the sides of a
+        square. Here's a breakdown of what each line is doing: */
+        Console.WriteLine("Ingrese el valor del primer lado del cuadrado: ");
+        areaSquare.Slide1 = Double.Parse(Console.ReadLine());
+        Console.WriteLine("Ingrese el valor del segundo lado del cuadrado: ");
+        areaSquare.Slide2 = Double.Parse(Console.ReadLine());
+        /* The line `Console.WriteLine($"El area de un cuadrado es: "+
+        "{areaSquare.ShapeArea2(areaSquare.Slide1, areaSquare.Slide2)}");` is attempting to print the
+        calculated area of a square to the console. However, there seems to be a syntax error in the way the
+        string interpolation is being used. */
+        Console.WriteLine($"El area de un cuadrado es: " +
+        "{areaSquare.ShapeArea2(areaSquare.Slide1, areaSquare.Slide2)}");
     }
 }

@@ -6,8 +6,8 @@ polymorphism and enables different shapes to calculate their areas in a specific
 individual implementations. */
 public abstract class Shape
 {
-/// <summary>
-/// The function ShapeArea() is declared as an abstract method in a C# class.
-/// </summary>
+    /// <summary>
+    /// The function ShapeArea() is declared as an abstract method in a C# class.
+    /// </summary>
     public abstract double ShapeArea();
 }
