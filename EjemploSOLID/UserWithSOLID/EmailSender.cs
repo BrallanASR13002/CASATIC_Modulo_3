@@ -1,4 +1,4 @@
-class EmailSender
+public class EmailSender
 {
     public string SendEmail(string message, string Email)
     {
