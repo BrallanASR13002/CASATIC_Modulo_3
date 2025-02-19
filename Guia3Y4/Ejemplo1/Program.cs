@@ -47,5 +47,15 @@ internal class Program
         Console.WriteLine("Ingrese el valor de la base del triangulo: ");
         areaTriangle.With = Double.Parse(Console.ReadLine());
         Console.WriteLine($"El area de un triangulo es: {areaTriangle.Area()}");
+
+        /* The provided code snippet is part of a C# program that calculates the area of a rectangle based on
+        user input for the height and base of the rectangle. Here's a breakdown of what each line is doing: */
+        Console.WriteLine("Area de un rectangulo");
+        Rectangle areaRectangle = new Rectangle();
+        Console.WriteLine("Ingrese el valor de la altura del rectangulo: ");
+        areaRectangle.Slide1 = Double.Parse(Console.ReadLine());
+        Console.WriteLine("Ingrese el valor de la base del rectangulo: ");
+        areaRectangle.Slide2 = Double.Parse(Console.ReadLine());
+        Console.WriteLine($"El area de un Rectangulo es: {areaRectangle.AreaCalculate()}");
     }
 }
