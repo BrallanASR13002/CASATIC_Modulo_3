@@ -11,6 +11,6 @@ public class UserService
     public void SaveDataUser(User user)
     {
         _ = new EmailSender();
-        _ = EmailSender.SendEmail("Enviando correo", user.Email);
+        _ = EmailSender.SendEmail("Sending email", user.Email);
     }
 }
