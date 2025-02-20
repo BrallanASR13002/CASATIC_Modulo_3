@@ -1,7 +1,7 @@
 public class EmailSender
 {
-    public string SendEmail(string message, string Email)
+    public static string SendEmail(string? message, string? Email)
     {
-        return $"emal enviado {Email}: {message}";
+        return $"email enviado {Email}: {message}";
     }
 }
