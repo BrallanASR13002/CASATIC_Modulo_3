@@ -1,4 +1,4 @@
-public class Cicle : IShapeAreaCalculator
+public class Circle : IShapeAreaCalculator
 {
     public double Radius { get; set; }
 
