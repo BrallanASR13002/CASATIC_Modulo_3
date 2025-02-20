@@ -1,9 +1,10 @@
-public class Rectangle : Shape
+public class Rectangle : IShape
 {
-    public double Length { get; set; }
     public double Width { get; set; }
-    public override double CalculateArea()
+    public double Heigth { get; set; }
+
+    public double CalculateArea()
     {
-        return Length * Width;
+        return Heigth * Width;
     }
 }

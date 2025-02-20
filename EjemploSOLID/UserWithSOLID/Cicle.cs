@@ -1,7 +1,8 @@
-public class Cicle : Shape
+public class Cicle : IShapeAreaCalculator
 {
     public double Radius { get; set; }
-    public override double CalculateArea()
+
+    public double CalculateArea()
     {
         return Math.PI * Math.Pow(Radius, 2);
     }
