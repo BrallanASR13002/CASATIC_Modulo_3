@@ -1,0 +1,15 @@
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\bin\Debug\net8.0\UserWithSOLID.exe
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\bin\Debug\net8.0\UserWithSOLID.deps.json
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\bin\Debug\net8.0\UserWithSOLID.runtimeconfig.json
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\bin\Debug\net8.0\UserWithSOLID.dll
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\bin\Debug\net8.0\UserWithSOLID.pdb
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.AssemblyInfoInputs.cache
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.AssemblyInfo.cs
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.csproj.CoreCompileInputs.cache
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.sourcelink.json
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.dll
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\refint\UserWithSOLID.dll
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.pdb
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\UserWithSOLID.genruntimeconfig.cache
+C:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjemploSOLID\UserWithSOLID\obj\Debug\net8.0\ref\UserWithSOLID.dll

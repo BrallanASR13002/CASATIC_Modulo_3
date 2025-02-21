@@ -1,4 +1,4 @@
-interface IShapeAreaCalculator
+interface IShapeAreaCalculator:IDataInput
 {
-    double CalculateArea();
+    double Area { get; set; }
 }

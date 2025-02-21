@@ -1,10 +1,23 @@
 public class Square : IShape
 {
     public double Width { get; set; }
-    public double Height { get; set ; }
+    public double Height { get; set; }
+    public double Area { get; set; }
+    public double ValueInput { get; set; }
 
     public double CalculateArea()
     {
-        return Height * Width;
+        Height = DataInput();
+        Width = DataInput();
+        Area = Math.Round(Height * Width, 2);
+        Console.WriteLine($"El valor del area del cuadrado es: {Area}");
+        return Area;
+    }
+
+    public double DataInput()
+    {
+        Console.WriteLine("Ingrese el valor: ");
+        ValueInput = Double.Parse(Console.ReadLine());
+        return ValueInput;
     }
 }
