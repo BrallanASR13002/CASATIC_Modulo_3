@@ -41,7 +41,7 @@ public class ShapeService : IShapeInputService
         Console.WriteLine("2) Calculo del Area de un Cuadrado: ");
         Console.WriteLine("3) Calculo del Area de un Rectangulo: ");
         Console.WriteLine("4) Calculo del Area de un Triangulo: ");
-        SelectionArgument = int.Parse(Console.ReadLine());
+        SelectionArgument = int.Parse(Console.ReadLine()!);
         Console.WriteLine($"Operación a realizar: {SelectionArgument}");
         return SelectionArgument;
     }

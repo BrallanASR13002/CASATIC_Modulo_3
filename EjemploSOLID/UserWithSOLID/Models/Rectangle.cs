@@ -23,7 +23,7 @@ public class Rectangle : IShape
     public double DataInput()
     {
         Console.WriteLine("Ingrese el valor: ");
-        ValueInput = Double.Parse(Console.ReadLine());
+        ValueInput = Double.Parse(Console.ReadLine()!);
         return ValueInput;
     }
 }

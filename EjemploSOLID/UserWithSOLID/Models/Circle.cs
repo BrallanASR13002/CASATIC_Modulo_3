@@ -15,7 +15,7 @@ public class Circle : IShapeAreaCalculator
     public double DataInput()
     {
         Console.WriteLine("Ingrese el valor del radio: ");
-        ValueInput = Double.Parse(Console.ReadLine());
+        ValueInput = Double.Parse(Console.ReadLine()!);
         return ValueInput;
     }
 }
