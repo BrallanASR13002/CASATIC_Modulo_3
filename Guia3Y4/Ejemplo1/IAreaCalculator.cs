@@ -10,6 +10,9 @@ public interface IAreaCalculator
     the values of `Slide1`, `Slide2`, and `Area`. The `get` accessor retrieves the value of the
     property, while the `set` accessor assigns a new value to the property. */
     double Slide1 { get; set; }
+    /// <summary>
+    /// Slide2 from  a shape
+    /// </summary>
     double Slide2 { get; set; }
     double Area { get; set; }
     /// <summary>

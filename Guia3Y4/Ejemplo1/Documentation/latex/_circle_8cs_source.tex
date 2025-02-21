@@ -1,0 +1,28 @@
+\doxysection{C\+:/\+Users/\+Brallan Sanchez/\+Documents/\+CASATIC/\+Modulo 3/\+Guia3\+Y4/\+Ejemplo1/\+Circle.cs}
+\hypertarget{_circle_8cs_source}{}\label{_circle_8cs_source}\mbox{\hyperlink{_circle_8cs}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00001}00001\ \textcolor{comment}{/*\ The\ line\ \`{}public\ class\ Circle\ :\ Shape`\ is\ defining\ a\ class\ named\ \`{}Circle`\ that\ inherits\ from\ another}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00002}00002\ \textcolor{comment}{class\ named\ \`{}Shape`.\ This\ means\ that\ the\ \`{}Circle`\ class\ will\ inherit\ all\ the\ properties\ and\ methods}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00003}00003\ \textcolor{comment}{of\ the\ \`{}Shape`\ class,\ allowing\ it\ to\ reuse\ and\ extend\ the\ functionality\ defined\ in\ the\ \`{}Shape`}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00004}00004\ \textcolor{comment}{class.\ This\ is\ known\ as\ inheritance\ in\ object-\/oriented\ programming,\ where\ a\ subclass\ (in\ this\ case,}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00005}00005\ \textcolor{comment}{\`{}Circle`)\ inherits\ characteristics\ from\ a\ superclass\ (in\ this\ case,\ \`{}Shape`).\ */}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00006}\mbox{\hyperlink{class_circle}{00006}}\ \textcolor{keyword}{public}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_circle}{Circle}}\ :\ \mbox{\hyperlink{class_shape}{Shape}}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00007}00007\ \{}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00008}00008\ \ \ \ \ \textcolor{comment}{/*\ The\ line\ \`{}public\ double\ Radius\ \{\ get;\ set;\ \}`\ is\ defining\ a\ property\ called\ \`{}Radius`\ in\ the\ \`{}Circle`}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00009}00009\ \textcolor{comment}{\ \ \ \ class.\ This\ property\ has\ both\ a\ getter\ and\ a\ setter,\ which\ means\ it\ can\ be\ read\ from\ and\ written\ to}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00010}00010\ \textcolor{comment}{\ \ \ \ from\ outside\ the\ class.\ This\ allows\ you\ to\ access\ and\ modify\ the\ radius\ of\ a\ circle\ object\ of\ this}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00011}00011\ \textcolor{comment}{\ \ \ \ class.\ */}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00012}\mbox{\hyperlink{class_circle_ab85bbad75ef93eaad84ff441e329b220}{00012}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_circle_ab85bbad75ef93eaad84ff441e329b220}{Radius}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00013}00013\ \ \ \ \ \textcolor{comment}{/*\ The\ line\ \`{}public\ double\ CircleArea\ \{\ get;\ set;\ \}`\ is\ defining\ a\ property\ called\ \`{}CircleArea`\ in\ the}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00014}00014\ \textcolor{comment}{\ \ \ \ \`{}Circle`\ class.\ This\ property\ has\ both\ a\ getter\ and\ a\ setter,\ allowing\ you\ to\ read\ from\ and\ write\ to}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00015}00015\ \textcolor{comment}{\ \ \ \ it\ from\ outside\ the\ class.\ This\ property\ is\ likely\ intended\ to\ store\ the\ calculated\ area\ of\ the}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00016}00016\ \textcolor{comment}{\ \ \ \ circle,\ which\ is\ computed\ in\ the\ \`{}ShapeArea`\ method.\ */}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00017}\mbox{\hyperlink{class_circle_acebecb4105b04180d2805b1058552ad3}{00017}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_circle_acebecb4105b04180d2805b1058552ad3}{CircleArea}}\ \{\ \textcolor{keyword}{get};\ \textcolor{keyword}{set};\ \}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00025}\mbox{\hyperlink{class_circle_ac51fae4d8861019e5b10c62ddb694f22}{00025}}\ \ \ \ \ \textcolor{keyword}{public}\ \textcolor{keyword}{override}\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_circle_ac51fae4d8861019e5b10c62ddb694f22}{ShapeArea}}()}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00026}00026\ \ \ \ \ \{}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00027}00027\ \ \ \ \ \ \ \ \ \mbox{\hyperlink{class_circle_acebecb4105b04180d2805b1058552ad3}{CircleArea}}\ =\ Math.Round(Math.Pow(\mbox{\hyperlink{class_circle_ab85bbad75ef93eaad84ff441e329b220}{Radius}},\ 2)\ *\ Math.PI,\ 2);}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00028}00028\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ \mbox{\hyperlink{class_circle_acebecb4105b04180d2805b1058552ad3}{CircleArea}};}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00029}00029\ \ \ \ \ \}}
+\DoxyCodeLine{\Hypertarget{_circle_8cs_source_l00030}00030\ \}}
+
+\end{DoxyCode}
