@@ -12,8 +12,8 @@ class Program
             var users = context.users.ToList();
 
             foreach (var user in users)
-            {
-                Console.WriteLine($"User ID: {user.ID} || User Name: {user.UserName}");
+            { 
+                Console.WriteLine($"User ID: {user.UserID} || User Name: {user.UserName}");
             }
         }
         Console.WriteLine("____________________________________________________________");

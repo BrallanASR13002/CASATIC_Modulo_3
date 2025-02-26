@@ -1,0 +1,11 @@
+CREATE TABLE "Users"( 
+"UserID" SERIAL PRIMARY KEY, 
+"UserName" VARCHAR(100) NOT NULL, 
+"UserEmail" VARCHAR(100) UNIQUE NOT NULL 
+); 
+
+CREATE TABLE "Orders" ( 
+    "OrderID" SERIAL PRIMARY KEY, 
+    "UserID" INT REFERENCES "Users"("UserID"), 
+    "OrderDate" TIMESTAMP DEFAULT NOW() 
+); 

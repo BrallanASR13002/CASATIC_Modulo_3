@@ -1,0 +1,21 @@
+Ejemplo de definición en SQLServer: 
+
+CREATE TABLE Users ( 
+
+UserID INT IDENTITY PRIMARY KEY, 
+
+UserName NVARCHAR(100) NOT NULL, 
+
+UserEmail NVARCHAR(100) UNIQUE NOT NULL 
+
+); 
+
+CREATE TABLE Orders ( 
+
+OrdersID INT IDENTITY PRIMARY KEY, 
+
+UserID INT FOREIGN KEY REFERENCES Users(UserID), 
+
+OrderDate DATETIME DEFAULT GETDATE() 
+
+); s
