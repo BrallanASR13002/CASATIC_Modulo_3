@@ -10,7 +10,8 @@ public class EmailSender
 /// <param name="Email">user email</param>
 /// <returns>message of the email was sended</returns>
     public static string SendEmail(string? message, string? Email)
-    {
+    { 
+        
         return $"email enviado {Email}: {message}";
     }
 }

@@ -15,7 +15,8 @@ class Program
             {
                 Console.WriteLine($"User ID: {user.UserID} || User Name: {user.UserName}");
             }
-        }
+        } 
+        
         Console.WriteLine("____________________________________________________________");
 
     }
