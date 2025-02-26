@@ -10,7 +10,7 @@ public class AppDbContext : DbContext
     /// <summary>
     /// DbSet of Orders, it is a table that will be created in the database
     /// </summary>
-    public DbSet<User> users { get; set; }
+    public DbSet<User> Users { get; set; }
     /// <summary>
     /// DbSet of Orders, it is a table that will be created in the database
     /// </summary>
