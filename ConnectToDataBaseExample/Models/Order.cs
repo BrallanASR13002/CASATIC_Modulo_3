@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 /// <summary>
 /// Orders model class, it has a foreign key to User model and a primary keys
 /// </summary> 
-public class Orders
+public class Order
 { 
     /// <summary>
     /// Order ID, can be used as primary key and auto incremented
@@ -14,7 +14,7 @@ public class Orders
     /// <summary>
     /// User ID, can be used as foreign key
     /// </summary>
-    public int UserID {get; set;} 
+    public int? UserID {get; set;} 
     public User? User { get; set; }
     /// <summary>
     /// Order Date, it is a DateTime type, can be null

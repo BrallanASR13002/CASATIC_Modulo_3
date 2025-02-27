@@ -11,7 +11,7 @@ public class AppDbContext : DbContext
     /// DbSet of Orders, it is a table that will be created in the database
     /// </summary>
     public DbSet<User> Users { get; set; } 
-    public DbSet<Orders> Orders { get; set; }
+    public DbSet<Order> Orders { get; set; }
     /// <summary>
     /// DbSet of Orders, it is a table that will be created in the database
     /// </summary>
@@ -33,7 +33,7 @@ public class AppDbContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>().ToTable("Users", schema: "public");  
-        modelBuilder.Entity<Orders>().ToTable("Orders", schema: "public");
+        modelBuilder.Entity<Order>().ToTable("Orders", schema: "public");
     }
 
 }
