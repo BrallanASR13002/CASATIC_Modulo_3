@@ -1,5 +1,11 @@
-﻿public class Program
+﻿/// <summary>
+/// class program, it is the entry point of the application
+/// </summary>
+public class Program
 {
+    /// <summary>
+    /// Main method, it is the entry point of the application
+    /// </summary>
     public static void Main()
     {
         // Create a new instance of the UserService class
