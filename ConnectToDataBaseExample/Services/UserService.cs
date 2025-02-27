@@ -16,6 +16,7 @@ public class UserService : IUserService
         output.StyleOutput();
         // List of users message
         Console.WriteLine("List of users:");
+        output.StyleOutput();
         // Get all users from the database
         using (var db = new AppDbContext())
         {   //declare a list of users
@@ -25,11 +26,14 @@ public class UserService : IUserService
             //list all users and their orders
             foreach (var order in orders)
             {
-                output.StyleOutput();
                 //print the order's date from the database
                 Console.WriteLine($"Date: {order.OrderDate}");
                 //print the user's name
                 Console.WriteLine($"User: {order.User?.UserName}");
+                //print the user's email
+                Console.WriteLine($"Email: {order.User?.UserEmail}");
+                output.StyleOutput();
+
             }
         }
     }
