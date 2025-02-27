@@ -33,7 +33,6 @@ public class UserService : IUserService
                 //print the user's email
                 Console.WriteLine($"Email: {order.User?.UserEmail}");
                 output.StyleOutput();
-
             }
         }
     }
