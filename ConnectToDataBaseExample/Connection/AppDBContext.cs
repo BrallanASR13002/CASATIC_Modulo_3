@@ -10,7 +10,8 @@ public class AppDbContext : DbContext
     /// <summary>
     /// DbSet of Orders, it is a table that will be created in the database
     /// </summary>
-    public DbSet<User> Users { get; set; }
+    public DbSet<User> Users { get; set; } 
+    public DbSet<Orders> Orders { get; set; }
     /// <summary>
     /// DbSet of Orders, it is a table that will be created in the database
     /// </summary>
@@ -31,7 +32,8 @@ public class AppDbContext : DbContext
     /// <param name="modelBuilder"></param>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<User>().ToTable("Users", schema: "public");
+        modelBuilder.Entity<User>().ToTable("Users", schema: "public");  
+        modelBuilder.Entity<Orders>().ToTable("Orders", schema: "public");
     }
 
 }

@@ -10,13 +10,20 @@ class Program
         {
             // get the users table from the database
             var users = context.Users.ToList();
+            var orders = context.Orders.ToList();
             //define the Users table and display the user ID and user name
-            foreach (var user in users)
+            foreach (var order in orders)
             {
-                Console.WriteLine($"User ID: {user.UserID} || User Name: {user.UserName}");
+                Console.WriteLine($"Order ID: {order.OrderID}");
+                Console.WriteLine($"User ID: {order.UserID}");
+                Console.WriteLine($"User Name: {order.User?.UserName}");
+                Console.WriteLine($"User Email: {order.User?.UserEmail}");
+                Console.WriteLine($"Order Date: {order.OrderDate}");
+                Console.WriteLine("____________________________________________________________");
             }
-        } 
-        
+
+        }
+
         Console.WriteLine("____________________________________________________________");
 
     }
