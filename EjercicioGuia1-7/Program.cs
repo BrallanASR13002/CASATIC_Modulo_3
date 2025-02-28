@@ -1,4 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-SubSaleService subSaleService = new SubSaleService();
-subSaleService.CalculateSubTotal();
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        OrderService orderService = new OrderService();
+        orderService.CanContinue();
+    }
+}

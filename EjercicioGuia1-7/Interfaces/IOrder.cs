@@ -1,4 +1,4 @@
 interface IOrder
 {
-    bool CanContinue();
+    string CanContinue();
 }

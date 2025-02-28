@@ -1,4 +1,4 @@
 public interface ISale
 {
-    void CalculateTotal();
+    decimal CalculateTotal();
 }
