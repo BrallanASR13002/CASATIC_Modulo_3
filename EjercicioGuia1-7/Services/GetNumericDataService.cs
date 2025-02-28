@@ -8,8 +8,8 @@ public class GetNumericDataService : IDataInput
         string input;
         do
         {
-            Console.Write("Enter only numbers: ");
             input = Console.ReadLine() ?? "";
+            Console.Clear();
 
             if (!Regex.IsMatch(input, @"^\d+(\.\d+)?$")
 )

@@ -8,8 +8,8 @@ public class GetStringDataService : IDataInput
         string input;
         do
         {
-            Console.Write("Enter only letters: ");
             input = Console.ReadLine() ?? "";
+            Console.Clear();
 
             if (!Regex.IsMatch(input, @"^[a-zA-Z]+( [a-zA-Z]+)*$"))
             {

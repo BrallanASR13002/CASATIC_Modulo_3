@@ -21,11 +21,11 @@ public class SaleService : ISale
         Console.WriteLine("Calculating total sales...");
         foreach (var subSale in SubSales)
         {
-            Console.WriteLine($"Subtotal: {subSale.SubTotal}");
+            Console.WriteLine($"Subtotal: $ {subSale.SubTotal}");
         }
 
         decimal totalSale = SubSales.Sum(subSale => subSale.SubTotal);
-        Console.WriteLine($"Total sale: {totalSale}");
+        Console.WriteLine($"Total sale: $ {totalSale}");
         return totalSale;
     }
 }

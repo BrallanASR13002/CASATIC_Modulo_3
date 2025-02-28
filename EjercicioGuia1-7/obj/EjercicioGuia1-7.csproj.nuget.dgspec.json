@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj": {}
+    "C:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj": {
+    "C:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj",
+        "projectUniqueName": "C:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj",
         "projectName": "EjercicioGuia1-7",
-        "projectPath": "c:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj",
+        "projectPath": "C:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\EjercicioGuia1-7.csproj",
         "packagesPath": "C:\\Users\\Brallan Sanchez\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\obj\\",
+        "outputPath": "C:\\Users\\Brallan Sanchez\\Documents\\CASATIC\\Modulo 3\\EjercicioGuia1-7\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Brallan Sanchez\\AppData\\Roaming\\NuGet\\NuGet.Config"

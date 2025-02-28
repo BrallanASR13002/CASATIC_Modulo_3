@@ -15,7 +15,7 @@ public class SubSaleService : ISubSale
     {
         Product product = new Product();
 
-        Console.Write("Enter product name: ");
+        Console.WriteLine("Enter product name: ");
         product.ProductName = _getStringDataService.GetData();
 
         Console.WriteLine("Enter product description: ");
@@ -29,7 +29,7 @@ public class SubSaleService : ISubSale
         }
         product.ProductAmount = amount;
 
-        Console.Write("Enter product price: ");
+        Console.WriteLine("Enter product price: ");
         if (!decimal.TryParse(_getNumericDataService.GetData(), out decimal price) || price <= 0)
         {
             Console.WriteLine("Invalid price. Please enter a valid number.");

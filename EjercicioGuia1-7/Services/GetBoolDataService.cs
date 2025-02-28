@@ -9,6 +9,7 @@ public class GetBoolDataService : IDataInput
         {
             Console.Write("Enter only yes/no, true/false, or their equivalents (y/n, s/n): ");
             input = (Console.ReadLine() ?? "").Trim().ToLower();
+            Console.Clear();
             if (Regex.IsMatch(input, @"^(true|yes|y|sí|s)$", RegexOptions.IgnoreCase))
             {
                 input = "true";
