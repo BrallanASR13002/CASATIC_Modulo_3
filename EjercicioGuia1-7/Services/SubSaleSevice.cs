@@ -1,17 +1,18 @@
 public class SubSaleService : ISubSale
 {
-    GetDataService getDataService = new GetDataService();
+    GetNumericDataService getNumericDataService = new GetNumericDataService();
+    GetStringDataService getStringDataService = new GetStringDataService();
     public decimal CalculateSubTotal()
     {
         Product product = new Product();
         Console.WriteLine("Enter product name: ");
-        product.ProductName = getDataService.GetData();
+        product.ProductName = getStringDataService.GetData();
         Console.WriteLine("Enter product description: ");
-        product.ProductDescription = getDataService.GetData();
+        product.ProductDescription = getStringDataService.GetData();
         Console.WriteLine("Enter product amount: ");
-        product.ProductAmount = int.Parse(getDataService.GetData());
+        product.ProductAmount = int.Parse(getNumericDataService.GetData());
         Console.WriteLine("Enter product price: ");
-        product.ProductPrice = decimal.Parse(getDataService.GetData());
+        product.ProductPrice = decimal.Parse(getNumericDataService.GetData());
         SubSale subSale = new SubSale();
         subSale.SubTotal = product.ProductAmount * product.ProductPrice;
         Console.WriteLine($"Product name: {product.ProductName}");
