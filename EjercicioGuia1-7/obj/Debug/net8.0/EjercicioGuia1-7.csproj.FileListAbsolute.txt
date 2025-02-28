@@ -1,0 +1,15 @@
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\bin\Debug\net8.0\EjercicioGuia1-7.exe
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\bin\Debug\net8.0\EjercicioGuia1-7.deps.json
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\bin\Debug\net8.0\EjercicioGuia1-7.runtimeconfig.json
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\bin\Debug\net8.0\EjercicioGuia1-7.dll
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\bin\Debug\net8.0\EjercicioGuia1-7.pdb
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.AssemblyInfoInputs.cache
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.AssemblyInfo.cs
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.csproj.CoreCompileInputs.cache
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.sourcelink.json
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.dll
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\refint\EjercicioGuia1-7.dll
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.pdb
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\EjercicioGuia1-7.genruntimeconfig.cache
+c:\Users\Brallan Sanchez\Documents\CASATIC\Modulo 3\EjercicioGuia1-7\obj\Debug\net8.0\ref\EjercicioGuia1-7.dll
