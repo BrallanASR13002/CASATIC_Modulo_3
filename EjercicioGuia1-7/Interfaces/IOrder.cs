@@ -1,0 +1,4 @@
+interface IOrder
+{
+    bool CanContinue();
+}
