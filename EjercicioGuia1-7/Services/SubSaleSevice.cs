@@ -1,26 +1,46 @@
 public class SubSaleService : ISubSale
 {
-    GetNumericDataService getNumericDataService = new GetNumericDataService();
-    GetStringDataService getStringDataService = new GetStringDataService();
+    private readonly GetNumericDataService _getNumericDataService;
+    private readonly GetStringDataService _getStringDataService;
+    private readonly SaleService _saleService;
+
+    public SubSaleService(GetNumericDataService getNumericDataService, GetStringDataService getStringDataService, SaleService saleService)
+    {
+        _getNumericDataService = getNumericDataService;
+        _getStringDataService = getStringDataService;
+        _saleService = saleService;
+    }
+
     public decimal CalculateSubTotal()
     {
         Product product = new Product();
-        Console.WriteLine("Enter product name: ");
-        product.ProductName = getStringDataService.GetData();
+
+        Console.Write("Enter product name: ");
+        product.ProductName = _getStringDataService.GetData();
+
         Console.WriteLine("Enter product description: ");
-        product.ProductDescription = getStringDataService.GetData();
+        product.ProductDescription = _getStringDataService.GetData();
+
         Console.WriteLine("Enter product amount: ");
-        product.ProductAmount = int.Parse(getNumericDataService.GetData());
-        Console.WriteLine("Enter product price: ");
-        product.ProductPrice = decimal.Parse(getNumericDataService.GetData());
-        SubSale subSale = new SubSale();
-        subSale.SubTotal = product.ProductAmount * product.ProductPrice;
-        Console.WriteLine($"Product name: {product.ProductName}");
-        Console.WriteLine($"Product description: {product.ProductDescription}");
-        Console.WriteLine($"Product amount: {product.ProductAmount} ");
-        Console.WriteLine($"Product price: {product.ProductPrice} ");
-        Console.WriteLine($"Subtotal: {subSale.SubTotal}"
-        );
-        return subSale.SubTotal;
+        if (!int.TryParse(_getNumericDataService.GetData(), out int amount) || amount <= 0)
+        {
+            Console.WriteLine("Invalid amount. Please enter a valid number.");
+            return 0;
+        }
+        product.ProductAmount = amount;
+
+        Console.Write("Enter product price: ");
+        if (!decimal.TryParse(_getNumericDataService.GetData(), out decimal price) || price <= 0)
+        {
+            Console.WriteLine("Invalid price. Please enter a valid number.");
+            return 0;
+        }
+        product.ProductPrice = price;
+
+        decimal subTotal = product.ProductAmount * product.ProductPrice;
+        _saleService.AddSubSale(subTotal);
+
+        Console.WriteLine($"Registered subtotal: {subTotal}");
+        return subTotal;
     }
 }
