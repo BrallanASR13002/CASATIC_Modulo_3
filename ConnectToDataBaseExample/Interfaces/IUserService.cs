@@ -1,4 +1,3 @@
-/// <summary>
 /// Interface for UserService
 /// </summary>
 interface IUserService
