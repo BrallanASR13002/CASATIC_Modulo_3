@@ -18,4 +18,4 @@ UserID INT FOREIGN KEY REFERENCES Users(UserID),
 
 OrderDate DATETIME DEFAULT GETDATE() 
 
-); s
+);
